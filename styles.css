@@ -1,0 +1,63 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+html,
+body,
+.wrapper {
+  height: 100%;
+}
+* {
+    border: none;
+}
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 700;
+  margin-top: 10%;
+  margin-bottom: 2%;
+  font-family: Roboto;  
+}
+
+.left {
+  text-align: right;
+  float: left;
+  width: 50%;
+}
+
+.right {
+  text-align: left;
+  float: right;
+  width: 50%;
+  font-family: Roboto;  
+}
+
+.networks {
+  overflow: hidden;
+}
+
+p {
+  color: #888;
+  font-size: 1.4em;
+  margin: 0;
+  font-family: Roboto; 
+}
+
+.smile {
+  color: #ccc;
+  font-size: 1.1em;
+  margin-top: 20%;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: #3790FF;
+}
+
+a:hover {
+  text-decoration: underline;
+}
